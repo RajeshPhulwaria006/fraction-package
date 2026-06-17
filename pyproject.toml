@@ -1,13 +1,13 @@
 [project]
 name = "fraction-raj"
-version = "1.0.1"
+version = "1.0.2"
 description = "Fraction datatype implemented using Python magic methods"
 readme = "README.md"
 requires-python = ">=3.10"
 
 
 authors = [
-    {name = "Rajesh Phulwaria"}
+    {name = "Rajesh Phulwaria", email = "phulwariarajesh152@gmail.com"}
 ]
 
 license = {text = "MIT"}
