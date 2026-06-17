@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fraction-raj"
+version = "1.0.0"
+description = "Fraction datatype implemented using Python magic methods"
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+    {name = "Rajesh Phulwaria"}
+]
+
+license = {text = "MIT"}
+
+keywords = [
+    "fraction",
+    "math",
+    "python",
+    "magic methods"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
