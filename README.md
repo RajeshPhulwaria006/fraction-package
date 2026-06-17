@@ -34,7 +34,7 @@ Unlike Python's built-in `fractions.Fraction`, this project was built from scrat
 Install using pip:
 
 ```bash
-pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ fraction-raj
+pip install fraction-raj
 ```
 
 or install from source:
